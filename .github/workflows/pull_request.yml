@@ -1,4 +1,4 @@
-name: .NET
+name: main-pull_request
 
 env:
   PROJECT_PATH: ' ./Example/Example.Test/Example.Test.csproj'

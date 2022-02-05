@@ -1,9 +1,9 @@
-name: Build and deploy ASP.Net Core app to an Azure Web App
+name: main-build-deploy
 
 env:
-  AZURE_WEBAPP_NAME: yeager-example    # set this to the name of your Azure Web App
-  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
-  DOTNET_VERSION: '6.*'                 # set this to the .NET Core version to use
+  AZURE_WEBAPP_NAME: yeager-example
+  AZURE_WEBAPP_PACKAGE_PATH: '.'
+  DOTNET_VERSION: '6.*'
   API_PROJECT_PATH: ' ./Example/Example.Api/Example.Api.csproj'
 
 on:
